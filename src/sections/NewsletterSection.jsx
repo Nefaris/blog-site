@@ -30,20 +30,16 @@ export const NewsletterSection = () => (
           </div>
         </div>
         <div className="col-12 col-lg-4 ms-auto">
-          <form action="#" data-nordpass-autofill="login" data-np-checked={1}>
+          <form action="#">
             <div className="d-flex">
               <input
                 className="form-control me-2"
                 type="email"
                 placeholder="Type your e-mail"
-                data-nordpass-autofill="username"
-                data-nordpass-uid="ut4v4v976jg"
                 autoComplete="off"
-                data-np-checked={1}
               />
               <button className="btn btn-primary">Action</button>
               <span
-                data-nordpass-uid="ut4v4v976jg"
                 style={{
                   width: "24px",
                   minWidth: "24px",

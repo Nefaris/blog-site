@@ -11,15 +11,7 @@ export const Navbar = () => (
           width="96px"
         />
       </Link>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#nav03"
-        aria-controls="nav03"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button className="navbar-toggler" type="button">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="nav03">
